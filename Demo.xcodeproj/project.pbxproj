@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3250A7E315979F2DF31D74 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1938997261E43A0BB074B62C /* libPods-Demo.a */; };
 		F97DF00F2110007C00732658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F97DF00E2110007C00732658 /* AppDelegate.m */; };
 		F97DF0122110007C00732658 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F97DF0112110007C00732658 /* ViewController.m */; };
 		F97DF0152110007C00732658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97DF0132110007C00732658 /* Main.storyboard */; };
@@ -16,9 +17,41 @@
 		F97DF0282110489100732658 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F97DF0272110489100732658 /* OneViewController.m */; };
 		F97DF02B21104E7E00732658 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F97DF02A21104E7E00732658 /* TwoViewController.m */; };
 		F97DF02E2110753C00732658 /* UINavigationBar+cyw_NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F97DF02D2110753C00732658 /* UINavigationBar+cyw_NavigationBar.m */; };
+		F97DF0322112928B00732658 /* CYW_AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F97DF0312112928B00732658 /* CYW_AlertView.m */; };
+		F97DF035211292AE00732658 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F97DF034211292AE00732658 /* ThreeViewController.m */; };
+		F97DF0392112A7A200732658 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F97DF0382112A7A200732658 /* FourViewController.m */; };
+		F97DF03C2112A98A00732658 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F97DF03B2112A98A00732658 /* Person.m */; };
+		F984090E2117EEBC00EAAFDE /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = F984090D2117EEBC00EAAFDE /* Dog.m */; };
+		F984091421182AF600EAAFDE /* UIButton+test.m in Sources */ = {isa = PBXBuildFile; fileRef = F984091321182AF600EAAFDE /* UIButton+test.m */; };
+		F98409182119454B00EAAFDE /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98409172119454B00EAAFDE /* FiveViewController.m */; };
+		F984091B2119917B00EAAFDE /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F984091A2119917B00EAAFDE /* ModelViewController.m */; };
+		F9840921211995B100EAAFDE /* PresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F9840920211995B100EAAFDE /* PresentAnimation.m */; };
+		F9840924211A734F00EAAFDE /* cyw_Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = F9840923211A734F00EAAFDE /* cyw_Transition.m */; };
+		F9840927211A79B100EAAFDE /* DismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F9840926211A79B100EAAFDE /* DismissAnimation.m */; };
+		F984092A211A8DDC00EAAFDE /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9840929211A8DDC00EAAFDE /* PushViewController.m */; };
+		F984092D211A8E0D00EAAFDE /* PushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F984092C211A8E0D00EAAFDE /* PushAnimation.m */; };
+		F9840930211A969600EAAFDE /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F984092F211A969600EAAFDE /* PopAnimation.m */; };
+		F9840933211AF14F00EAAFDE /* Push_Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = F9840932211AF14F00EAAFDE /* Push_Transition.m */; };
+		F9840936211BC40F00EAAFDE /* UIView+anchorPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F9840934211BC40F00EAAFDE /* UIView+anchorPoint.m */; };
+		F984093A211C122F00EAAFDE /* LottieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9840939211C122F00EAAFDE /* LottieViewController.m */; };
+		F984093C211C172200EAAFDE /* happy.json in Resources */ = {isa = PBXBuildFile; fileRef = F984093B211C172100EAAFDE /* happy.json */; };
+		F9840942211C2D8500EAAFDE /* trail_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = F9840941211C2D8500EAAFDE /* trail_loading.json */; };
+		F98DD804212A4BC30036E7B7 /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD803212A4BC30036E7B7 /* AnimationController.m */; };
+		F98DD807212A84C30036E7B7 /* LayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD806212A84C30036E7B7 /* LayerViewController.m */; };
+		F98DD80A212A8B1F0036E7B7 /* DrawLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD809212A8B1F0036E7B7 /* DrawLayerViewController.m */; };
+		F98DD80D212AA0E10036E7B7 /* BaseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD80C212AA0E10036E7B7 /* BaseAnimationViewController.m */; };
+		F98DD810212AB4450036E7B7 /* KeyAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD80F212AB4450036E7B7 /* KeyAnimationViewController.m */; };
+		F98DD813212ABBAA0036E7B7 /* GruopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD812212ABBAA0036E7B7 /* GruopViewController.m */; };
+		F98DD816212AC3050036E7B7 /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD815212AC3050036E7B7 /* TransitionViewController.m */; };
+		F98DD819212BA3810036E7B7 /* ViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD818212BA3810036E7B7 /* ViewAnimationViewController.m */; };
+		F98DD81D212BA8780036E7B7 /* Quartz2DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD81C212BA8780036E7B7 /* Quartz2DViewController.m */; };
+		F98DD820212BACB30036E7B7 /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD81F212BACB30036E7B7 /* QuartzView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1938997261E43A0BB074B62C /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D932B198555298F934EB78 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		E17CA97749E71B92643D9A27 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		F97DF00A2110007C00732658 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97DF00D2110007C00732658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F97DF00E2110007C00732658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,6 +68,62 @@
 		F97DF02A21104E7E00732658 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		F97DF02C2110753C00732658 /* UINavigationBar+cyw_NavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+cyw_NavigationBar.h"; sourceTree = "<group>"; };
 		F97DF02D2110753C00732658 /* UINavigationBar+cyw_NavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+cyw_NavigationBar.m"; sourceTree = "<group>"; };
+		F97DF0302112928B00732658 /* CYW_AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYW_AlertView.h; sourceTree = "<group>"; };
+		F97DF0312112928B00732658 /* CYW_AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYW_AlertView.m; sourceTree = "<group>"; };
+		F97DF033211292AE00732658 /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		F97DF034211292AE00732658 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		F97DF0372112A7A200732658 /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		F97DF0382112A7A200732658 /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		F97DF03A2112A98A00732658 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F97DF03B2112A98A00732658 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F984090C2117EEBC00EAAFDE /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		F984090D2117EEBC00EAAFDE /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		F984091221182AF600EAAFDE /* UIButton+test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+test.h"; sourceTree = "<group>"; };
+		F984091321182AF600EAAFDE /* UIButton+test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+test.m"; sourceTree = "<group>"; };
+		F98409162119454B00EAAFDE /* FiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		F98409172119454B00EAAFDE /* FiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		F98409192119917B00EAAFDE /* ModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		F984091A2119917B00EAAFDE /* ModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		F984091F211995B100EAAFDE /* PresentAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentAnimation.h; sourceTree = "<group>"; };
+		F9840920211995B100EAAFDE /* PresentAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentAnimation.m; sourceTree = "<group>"; };
+		F9840922211A734F00EAAFDE /* cyw_Transition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cyw_Transition.h; sourceTree = "<group>"; };
+		F9840923211A734F00EAAFDE /* cyw_Transition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cyw_Transition.m; sourceTree = "<group>"; };
+		F9840925211A79B100EAAFDE /* DismissAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DismissAnimation.h; sourceTree = "<group>"; };
+		F9840926211A79B100EAAFDE /* DismissAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DismissAnimation.m; sourceTree = "<group>"; };
+		F9840928211A8DDC00EAAFDE /* PushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		F9840929211A8DDC00EAAFDE /* PushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		F984092B211A8E0D00EAAFDE /* PushAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushAnimation.h; sourceTree = "<group>"; };
+		F984092C211A8E0D00EAAFDE /* PushAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushAnimation.m; sourceTree = "<group>"; };
+		F984092E211A969600EAAFDE /* PopAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		F984092F211A969600EAAFDE /* PopAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+		F9840931211AF14F00EAAFDE /* Push_Transition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Push_Transition.h; sourceTree = "<group>"; };
+		F9840932211AF14F00EAAFDE /* Push_Transition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Push_Transition.m; sourceTree = "<group>"; };
+		F9840934211BC40F00EAAFDE /* UIView+anchorPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+anchorPoint.m"; sourceTree = "<group>"; };
+		F9840935211BC40F00EAAFDE /* UIView+anchorPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+anchorPoint.h"; sourceTree = "<group>"; };
+		F9840938211C122F00EAAFDE /* LottieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LottieViewController.h; sourceTree = "<group>"; };
+		F9840939211C122F00EAAFDE /* LottieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LottieViewController.m; sourceTree = "<group>"; };
+		F984093B211C172100EAAFDE /* happy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = happy.json; sourceTree = "<group>"; };
+		F9840941211C2D8500EAAFDE /* trail_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trail_loading.json; sourceTree = "<group>"; };
+		F98DD802212A4BC30036E7B7 /* AnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
+		F98DD803212A4BC30036E7B7 /* AnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
+		F98DD805212A84C30036E7B7 /* LayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayerViewController.h; sourceTree = "<group>"; };
+		F98DD806212A84C30036E7B7 /* LayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayerViewController.m; sourceTree = "<group>"; };
+		F98DD808212A8B1F0036E7B7 /* DrawLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawLayerViewController.h; sourceTree = "<group>"; };
+		F98DD809212A8B1F0036E7B7 /* DrawLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawLayerViewController.m; sourceTree = "<group>"; };
+		F98DD80B212AA0E10036E7B7 /* BaseAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAnimationViewController.h; sourceTree = "<group>"; };
+		F98DD80C212AA0E10036E7B7 /* BaseAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationViewController.m; sourceTree = "<group>"; };
+		F98DD80E212AB4450036E7B7 /* KeyAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyAnimationViewController.h; sourceTree = "<group>"; };
+		F98DD80F212AB4450036E7B7 /* KeyAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyAnimationViewController.m; sourceTree = "<group>"; };
+		F98DD811212ABBAA0036E7B7 /* GruopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GruopViewController.h; sourceTree = "<group>"; };
+		F98DD812212ABBAA0036E7B7 /* GruopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GruopViewController.m; sourceTree = "<group>"; };
+		F98DD814212AC3050036E7B7 /* TransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
+		F98DD815212AC3050036E7B7 /* TransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
+		F98DD817212BA3810036E7B7 /* ViewAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewAnimationViewController.h; sourceTree = "<group>"; };
+		F98DD818212BA3810036E7B7 /* ViewAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewAnimationViewController.m; sourceTree = "<group>"; };
+		F98DD81B212BA8780036E7B7 /* Quartz2DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quartz2DViewController.h; sourceTree = "<group>"; };
+		F98DD81C212BA8780036E7B7 /* Quartz2DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DViewController.m; sourceTree = "<group>"; };
+		F98DD81E212BACB30036E7B7 /* QuartzView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzView.h; sourceTree = "<group>"; };
+		F98DD81F212BACB30036E7B7 /* QuartzView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,17 +131,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3250A7E315979F2DF31D74 /* libPods-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32B69F8439B1769D1E07E3E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1938997261E43A0BB074B62C /* libPods-Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97CAB6111C828FAA2F1A0D0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33D932B198555298F934EB78 /* Pods-Demo.debug.xcconfig */,
+				E17CA97749E71B92643D9A27 /* Pods-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F97DF0012110007C00732658 = {
 			isa = PBXGroup;
 			children = (
 				F97DF00C2110007C00732658 /* Demo */,
 				F97DF00B2110007C00732658 /* Products */,
+				97CAB6111C828FAA2F1A0D0F /* Pods */,
+				32B69F8439B1769D1E07E3E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +193,12 @@
 		F97DF0232110486C00732658 /* Classess */ = {
 			isa = PBXGroup;
 			children = (
+				F98DD81A212BA8480036E7B7 /* Quartz2D */,
+				F98DD801212A4BAB0036E7B7 /* 核心动画 */,
+				F9840937211C11C300EAAFDE /* Lottie动画 */,
+				F98409152119451900EAAFDE /* 转场动画 */,
+				F97DF0362112A79600732658 /* RunTime */,
+				F97DF02F2112928B00732658 /* 自定义弹窗 */,
 				F97DF0242110486C00732658 /* 移动导航栏 */,
 				F97DF0252110486C00732658 /* 透明导航栏 */,
 			);
@@ -110,6 +225,104 @@
 			path = "透明导航栏";
 			sourceTree = "<group>";
 		};
+		F97DF02F2112928B00732658 /* 自定义弹窗 */ = {
+			isa = PBXGroup;
+			children = (
+				F97DF0302112928B00732658 /* CYW_AlertView.h */,
+				F97DF0312112928B00732658 /* CYW_AlertView.m */,
+				F97DF033211292AE00732658 /* ThreeViewController.h */,
+				F97DF034211292AE00732658 /* ThreeViewController.m */,
+			);
+			path = "自定义弹窗";
+			sourceTree = "<group>";
+		};
+		F97DF0362112A79600732658 /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				F97DF0372112A7A200732658 /* FourViewController.h */,
+				F97DF0382112A7A200732658 /* FourViewController.m */,
+				F97DF03A2112A98A00732658 /* Person.h */,
+				F97DF03B2112A98A00732658 /* Person.m */,
+				F984090C2117EEBC00EAAFDE /* Dog.h */,
+				F984090D2117EEBC00EAAFDE /* Dog.m */,
+				F984091221182AF600EAAFDE /* UIButton+test.h */,
+				F984091321182AF600EAAFDE /* UIButton+test.m */,
+			);
+			path = RunTime;
+			sourceTree = "<group>";
+		};
+		F98409152119451900EAAFDE /* 转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				F9840935211BC40F00EAAFDE /* UIView+anchorPoint.h */,
+				F9840934211BC40F00EAAFDE /* UIView+anchorPoint.m */,
+				F98409162119454B00EAAFDE /* FiveViewController.h */,
+				F98409172119454B00EAAFDE /* FiveViewController.m */,
+				F98409192119917B00EAAFDE /* ModelViewController.h */,
+				F984091A2119917B00EAAFDE /* ModelViewController.m */,
+				F9840928211A8DDC00EAAFDE /* PushViewController.h */,
+				F9840929211A8DDC00EAAFDE /* PushViewController.m */,
+				F984091F211995B100EAAFDE /* PresentAnimation.h */,
+				F9840920211995B100EAAFDE /* PresentAnimation.m */,
+				F9840925211A79B100EAAFDE /* DismissAnimation.h */,
+				F9840926211A79B100EAAFDE /* DismissAnimation.m */,
+				F9840922211A734F00EAAFDE /* cyw_Transition.h */,
+				F9840923211A734F00EAAFDE /* cyw_Transition.m */,
+				F984092B211A8E0D00EAAFDE /* PushAnimation.h */,
+				F984092C211A8E0D00EAAFDE /* PushAnimation.m */,
+				F984092E211A969600EAAFDE /* PopAnimation.h */,
+				F984092F211A969600EAAFDE /* PopAnimation.m */,
+				F9840931211AF14F00EAAFDE /* Push_Transition.h */,
+				F9840932211AF14F00EAAFDE /* Push_Transition.m */,
+			);
+			path = "转场动画";
+			sourceTree = "<group>";
+		};
+		F9840937211C11C300EAAFDE /* Lottie动画 */ = {
+			isa = PBXGroup;
+			children = (
+				F9840941211C2D8500EAAFDE /* trail_loading.json */,
+				F984093B211C172100EAAFDE /* happy.json */,
+				F9840938211C122F00EAAFDE /* LottieViewController.h */,
+				F9840939211C122F00EAAFDE /* LottieViewController.m */,
+			);
+			path = "Lottie动画";
+			sourceTree = "<group>";
+		};
+		F98DD801212A4BAB0036E7B7 /* 核心动画 */ = {
+			isa = PBXGroup;
+			children = (
+				F98DD802212A4BC30036E7B7 /* AnimationController.h */,
+				F98DD803212A4BC30036E7B7 /* AnimationController.m */,
+				F98DD805212A84C30036E7B7 /* LayerViewController.h */,
+				F98DD806212A84C30036E7B7 /* LayerViewController.m */,
+				F98DD808212A8B1F0036E7B7 /* DrawLayerViewController.h */,
+				F98DD809212A8B1F0036E7B7 /* DrawLayerViewController.m */,
+				F98DD80B212AA0E10036E7B7 /* BaseAnimationViewController.h */,
+				F98DD80C212AA0E10036E7B7 /* BaseAnimationViewController.m */,
+				F98DD80E212AB4450036E7B7 /* KeyAnimationViewController.h */,
+				F98DD80F212AB4450036E7B7 /* KeyAnimationViewController.m */,
+				F98DD811212ABBAA0036E7B7 /* GruopViewController.h */,
+				F98DD812212ABBAA0036E7B7 /* GruopViewController.m */,
+				F98DD814212AC3050036E7B7 /* TransitionViewController.h */,
+				F98DD815212AC3050036E7B7 /* TransitionViewController.m */,
+				F98DD817212BA3810036E7B7 /* ViewAnimationViewController.h */,
+				F98DD818212BA3810036E7B7 /* ViewAnimationViewController.m */,
+			);
+			path = "核心动画";
+			sourceTree = "<group>";
+		};
+		F98DD81A212BA8480036E7B7 /* Quartz2D */ = {
+			isa = PBXGroup;
+			children = (
+				F98DD81B212BA8780036E7B7 /* Quartz2DViewController.h */,
+				F98DD81C212BA8780036E7B7 /* Quartz2DViewController.m */,
+				F98DD81E212BACB30036E7B7 /* QuartzView.h */,
+				F98DD81F212BACB30036E7B7 /* QuartzView.m */,
+			);
+			path = Quartz2D;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,9 +330,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F97DF0202110007C00732658 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
+				F0274CD55C6E8CBF46546877 /* [CP] Check Pods Manifest.lock */,
 				F97DF0062110007C00732658 /* Sources */,
 				F97DF0072110007C00732658 /* Frameworks */,
 				F97DF0082110007C00732658 /* Resources */,
+				276A37B900978D0A6AAE1510 /* [CP] Embed Pods Frameworks */,
+				B16EB1797D8B8F950C9D0094 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,25 +384,105 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F984093C211C172200EAAFDE /* happy.json in Resources */,
 				F97DF01A2110007C00732658 /* LaunchScreen.storyboard in Resources */,
 				F97DF0172110007C00732658 /* Assets.xcassets in Resources */,
 				F97DF0152110007C00732658 /* Main.storyboard in Resources */,
+				F9840942211C2D8500EAAFDE /* trail_loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		276A37B900978D0A6AAE1510 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B16EB1797D8B8F950C9D0094 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0274CD55C6E8CBF46546877 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F97DF0062110007C00732658 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9840936211BC40F00EAAFDE /* UIView+anchorPoint.m in Sources */,
+				F98DD819212BA3810036E7B7 /* ViewAnimationViewController.m in Sources */,
 				F97DF0122110007C00732658 /* ViewController.m in Sources */,
+				F984091B2119917B00EAAFDE /* ModelViewController.m in Sources */,
+				F984092A211A8DDC00EAAFDE /* PushViewController.m in Sources */,
+				F98DD813212ABBAA0036E7B7 /* GruopViewController.m in Sources */,
+				F98DD804212A4BC30036E7B7 /* AnimationController.m in Sources */,
+				F9840933211AF14F00EAAFDE /* Push_Transition.m in Sources */,
 				F97DF02E2110753C00732658 /* UINavigationBar+cyw_NavigationBar.m in Sources */,
+				F98DD80D212AA0E10036E7B7 /* BaseAnimationViewController.m in Sources */,
+				F984093A211C122F00EAAFDE /* LottieViewController.m in Sources */,
+				F97DF03C2112A98A00732658 /* Person.m in Sources */,
 				F97DF01D2110007C00732658 /* main.m in Sources */,
+				F98DD810212AB4450036E7B7 /* KeyAnimationViewController.m in Sources */,
+				F98DD816212AC3050036E7B7 /* TransitionViewController.m in Sources */,
+				F98DD820212BACB30036E7B7 /* QuartzView.m in Sources */,
+				F98DD81D212BA8780036E7B7 /* Quartz2DViewController.m in Sources */,
+				F97DF0392112A7A200732658 /* FourViewController.m in Sources */,
+				F98409182119454B00EAAFDE /* FiveViewController.m in Sources */,
+				F98DD80A212A8B1F0036E7B7 /* DrawLayerViewController.m in Sources */,
+				F984090E2117EEBC00EAAFDE /* Dog.m in Sources */,
+				F984092D211A8E0D00EAAFDE /* PushAnimation.m in Sources */,
+				F9840930211A969600EAAFDE /* PopAnimation.m in Sources */,
 				F97DF00F2110007C00732658 /* AppDelegate.m in Sources */,
+				F97DF0322112928B00732658 /* CYW_AlertView.m in Sources */,
 				F97DF02B21104E7E00732658 /* TwoViewController.m in Sources */,
+				F9840924211A734F00EAAFDE /* cyw_Transition.m in Sources */,
 				F97DF0282110489100732658 /* OneViewController.m in Sources */,
+				F97DF035211292AE00732658 /* ThreeViewController.m in Sources */,
+				F9840927211A79B100EAAFDE /* DismissAnimation.m in Sources */,
+				F9840921211995B100EAAFDE /* PresentAnimation.m in Sources */,
+				F984091421182AF600EAAFDE /* UIButton+test.m in Sources */,
+				F98DD807212A84C30036E7B7 /* LayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +614,7 @@
 		};
 		F97DF0212110007C00732658 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D932B198555298F934EB78 /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -333,6 +630,7 @@
 		};
 		F97DF0222110007C00732658 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17CA97749E71B92643D9A27 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

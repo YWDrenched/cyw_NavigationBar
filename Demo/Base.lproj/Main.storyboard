@@ -4,9 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -47,7 +45,6 @@
         <!--Item-->
         <scene sceneID="wwu-5Q-M89">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g37-kD-OWg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7PT-eQ-bI2" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="vyT-TB-DCD"/>
                     <toolbarItems/>
@@ -60,6 +57,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="b7e-gc-c5y"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g37-kD-OWg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="106.40000000000001" y="133.5832083958021"/>
         </scene>

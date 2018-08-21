@@ -61,14 +61,14 @@
 
 -(NSArray *)dataArr{
     if (!_dataArr) {
-        _dataArr = @[@"OneViewController",@"TwoViewController"];
+        _dataArr = @[@"OneViewController",@"TwoViewController",@"ThreeViewController",@"FourViewController",@"FiveViewController",@"LottieViewController",@"AnimationController",@"Quartz2DViewController"];
     }
     return _dataArr;
 }
 
 -(NSArray *)titleArr{
     if (!_titleArr) {
-        _titleArr = @[@"tableView滚动",@"导航栏透明"];
+        _titleArr = @[@"tableView滚动",@"导航栏透明",@"自定义弹窗",@"RunTime",@"转场动画",@"Lottie动画",@"核心动画",@"Quartz2D"];
     }
     return _titleArr;
 }
