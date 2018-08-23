@@ -25,6 +25,7 @@
 
 
 -(void)addLayer{
+    
     CALayer *showLayer = [[CALayer alloc] init];
     showLayer.position = self.view.center;
     showLayer.bounds = CGRectMake(0, 0, WIDTH, WIDTH);

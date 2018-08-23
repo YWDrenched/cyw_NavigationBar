@@ -46,6 +46,15 @@
 		F98DD819212BA3810036E7B7 /* ViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD818212BA3810036E7B7 /* ViewAnimationViewController.m */; };
 		F98DD81D212BA8780036E7B7 /* Quartz2DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD81C212BA8780036E7B7 /* Quartz2DViewController.m */; };
 		F98DD820212BACB30036E7B7 /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD81F212BACB30036E7B7 /* QuartzView.m */; };
+		F98DD824212D0A060036E7B7 /* BezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD823212D0A060036E7B7 /* BezierPathViewController.m */; };
+		F98DD827212D0D830036E7B7 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD826212D0D830036E7B7 /* BezierView.m */; };
+		F98DD82B212E39970036E7B7 /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD82A212E39970036E7B7 /* DynamicViewController.m */; };
+		F98DD82E212E433D0036E7B7 /* GravityBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD82D212E433D0036E7B7 /* GravityBehaviorViewController.m */; };
+		F98DD831212E4CDD0036E7B7 /* CollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD830212E4CDD0036E7B7 /* CollisionViewController.m */; };
+		F98DD837212E52290036E7B7 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD836212E52290036E7B7 /* TestView.m */; };
+		F98DD83A212E60BF0036E7B7 /* SanpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD839212E60BF0036E7B7 /* SanpViewController.m */; };
+		F98DD83D212E87510036E7B7 /* AttachViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD83C212E87510036E7B7 /* AttachViewController.m */; };
+		F98DD846212E97620036E7B7 /* PushBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98DD845212E97620036E7B7 /* PushBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +133,24 @@
 		F98DD81C212BA8780036E7B7 /* Quartz2DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DViewController.m; sourceTree = "<group>"; };
 		F98DD81E212BACB30036E7B7 /* QuartzView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzView.h; sourceTree = "<group>"; };
 		F98DD81F212BACB30036E7B7 /* QuartzView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzView.m; sourceTree = "<group>"; };
+		F98DD822212D0A060036E7B7 /* BezierPathViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierPathViewController.h; sourceTree = "<group>"; };
+		F98DD823212D0A060036E7B7 /* BezierPathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPathViewController.m; sourceTree = "<group>"; };
+		F98DD825212D0D830036E7B7 /* BezierView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierView.h; sourceTree = "<group>"; };
+		F98DD826212D0D830036E7B7 /* BezierView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
+		F98DD829212E39970036E7B7 /* DynamicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
+		F98DD82A212E39970036E7B7 /* DynamicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
+		F98DD82C212E433D0036E7B7 /* GravityBehaviorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GravityBehaviorViewController.h; sourceTree = "<group>"; };
+		F98DD82D212E433D0036E7B7 /* GravityBehaviorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravityBehaviorViewController.m; sourceTree = "<group>"; };
+		F98DD82F212E4CDD0036E7B7 /* CollisionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollisionViewController.h; sourceTree = "<group>"; };
+		F98DD830212E4CDD0036E7B7 /* CollisionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollisionViewController.m; sourceTree = "<group>"; };
+		F98DD835212E52290036E7B7 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		F98DD836212E52290036E7B7 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		F98DD838212E60BF0036E7B7 /* SanpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SanpViewController.h; sourceTree = "<group>"; };
+		F98DD839212E60BF0036E7B7 /* SanpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SanpViewController.m; sourceTree = "<group>"; };
+		F98DD83B212E87500036E7B7 /* AttachViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttachViewController.h; sourceTree = "<group>"; };
+		F98DD83C212E87510036E7B7 /* AttachViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttachViewController.m; sourceTree = "<group>"; };
+		F98DD844212E97620036E7B7 /* PushBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushBViewController.h; sourceTree = "<group>"; };
+		F98DD845212E97620036E7B7 /* PushBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +220,8 @@
 		F97DF0232110486C00732658 /* Classess */ = {
 			isa = PBXGroup;
 			children = (
+				F98DD828212E39860036E7B7 /* UIDynamic */,
+				F98DD821212D09D80036E7B7 /* UIBezierPath */,
 				F98DD81A212BA8480036E7B7 /* Quartz2D */,
 				F98DD801212A4BAB0036E7B7 /* 核心动画 */,
 				F9840937211C11C300EAAFDE /* Lottie动画 */,
@@ -321,6 +350,38 @@
 				F98DD81F212BACB30036E7B7 /* QuartzView.m */,
 			);
 			path = Quartz2D;
+			sourceTree = "<group>";
+		};
+		F98DD821212D09D80036E7B7 /* UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				F98DD822212D0A060036E7B7 /* BezierPathViewController.h */,
+				F98DD823212D0A060036E7B7 /* BezierPathViewController.m */,
+				F98DD825212D0D830036E7B7 /* BezierView.h */,
+				F98DD826212D0D830036E7B7 /* BezierView.m */,
+			);
+			path = UIBezierPath;
+			sourceTree = "<group>";
+		};
+		F98DD828212E39860036E7B7 /* UIDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				F98DD829212E39970036E7B7 /* DynamicViewController.h */,
+				F98DD82A212E39970036E7B7 /* DynamicViewController.m */,
+				F98DD82C212E433D0036E7B7 /* GravityBehaviorViewController.h */,
+				F98DD82D212E433D0036E7B7 /* GravityBehaviorViewController.m */,
+				F98DD82F212E4CDD0036E7B7 /* CollisionViewController.h */,
+				F98DD830212E4CDD0036E7B7 /* CollisionViewController.m */,
+				F98DD835212E52290036E7B7 /* TestView.h */,
+				F98DD836212E52290036E7B7 /* TestView.m */,
+				F98DD838212E60BF0036E7B7 /* SanpViewController.h */,
+				F98DD839212E60BF0036E7B7 /* SanpViewController.m */,
+				F98DD83B212E87500036E7B7 /* AttachViewController.h */,
+				F98DD83C212E87510036E7B7 /* AttachViewController.m */,
+				F98DD844212E97620036E7B7 /* PushBViewController.h */,
+				F98DD845212E97620036E7B7 /* PushBViewController.m */,
+			);
+			path = UIDynamic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,17 +513,24 @@
 			files = (
 				F9840936211BC40F00EAAFDE /* UIView+anchorPoint.m in Sources */,
 				F98DD819212BA3810036E7B7 /* ViewAnimationViewController.m in Sources */,
+				F98DD824212D0A060036E7B7 /* BezierPathViewController.m in Sources */,
 				F97DF0122110007C00732658 /* ViewController.m in Sources */,
 				F984091B2119917B00EAAFDE /* ModelViewController.m in Sources */,
 				F984092A211A8DDC00EAAFDE /* PushViewController.m in Sources */,
+				F98DD82B212E39970036E7B7 /* DynamicViewController.m in Sources */,
+				F98DD837212E52290036E7B7 /* TestView.m in Sources */,
 				F98DD813212ABBAA0036E7B7 /* GruopViewController.m in Sources */,
 				F98DD804212A4BC30036E7B7 /* AnimationController.m in Sources */,
+				F98DD83D212E87510036E7B7 /* AttachViewController.m in Sources */,
 				F9840933211AF14F00EAAFDE /* Push_Transition.m in Sources */,
 				F97DF02E2110753C00732658 /* UINavigationBar+cyw_NavigationBar.m in Sources */,
+				F98DD846212E97620036E7B7 /* PushBViewController.m in Sources */,
 				F98DD80D212AA0E10036E7B7 /* BaseAnimationViewController.m in Sources */,
 				F984093A211C122F00EAAFDE /* LottieViewController.m in Sources */,
 				F97DF03C2112A98A00732658 /* Person.m in Sources */,
 				F97DF01D2110007C00732658 /* main.m in Sources */,
+				F98DD83A212E60BF0036E7B7 /* SanpViewController.m in Sources */,
+				F98DD831212E4CDD0036E7B7 /* CollisionViewController.m in Sources */,
 				F98DD810212AB4450036E7B7 /* KeyAnimationViewController.m in Sources */,
 				F98DD816212AC3050036E7B7 /* TransitionViewController.m in Sources */,
 				F98DD820212BACB30036E7B7 /* QuartzView.m in Sources */,
@@ -471,9 +539,11 @@
 				F98409182119454B00EAAFDE /* FiveViewController.m in Sources */,
 				F98DD80A212A8B1F0036E7B7 /* DrawLayerViewController.m in Sources */,
 				F984090E2117EEBC00EAAFDE /* Dog.m in Sources */,
+				F98DD827212D0D830036E7B7 /* BezierView.m in Sources */,
 				F984092D211A8E0D00EAAFDE /* PushAnimation.m in Sources */,
 				F9840930211A969600EAAFDE /* PopAnimation.m in Sources */,
 				F97DF00F2110007C00732658 /* AppDelegate.m in Sources */,
+				F98DD82E212E433D0036E7B7 /* GravityBehaviorViewController.m in Sources */,
 				F97DF0322112928B00732658 /* CYW_AlertView.m in Sources */,
 				F97DF02B21104E7E00732658 /* TwoViewController.m in Sources */,
 				F9840924211A734F00EAAFDE /* cyw_Transition.m in Sources */,

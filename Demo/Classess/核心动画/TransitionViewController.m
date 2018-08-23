@@ -54,12 +54,9 @@
 -(void)transitionAnimation:(BOOL)isNext{
     CATransition *transition = [[CATransition alloc] init];
     
-    transition.type = @"rippleEffect";
-    if (isNext) {
-        transition.subtype = kCATransitionFromRight;
-    }else{
-        transition.subtype = kCATransitionFromLeft;
-    }
+    transition.type = @"cube";
+   
+    isNext?(transition.subtype = kCATransitionFromRight):(transition.subtype = kCATransitionFromLeft);
     
     transition.duration = .4f;
     self.imageView.image = [self getImage:isNext];

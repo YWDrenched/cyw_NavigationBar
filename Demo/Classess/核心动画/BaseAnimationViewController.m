@@ -38,7 +38,7 @@
     UITouch *touch = touches.anyObject;
     CGPoint point = [touch locationInView:self.view];
     [self moveToPoint:point];
-    [self rotationAnimation];
+
 }
 
 // 移动动画
@@ -54,18 +54,6 @@
     [self.layer addAnimation:basicAnimation forKey:@"KCBasicAnimation_Translation"];
 }
 
-//旋转动画
--(void)rotationAnimation{
-    CABasicAnimation *anim = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
-    anim.duration = 5;
-    anim.toValue = [NSNumber numberWithDouble:M_PI * 3];
-    anim.repeatCount = MAXFLOAT;
-    anim.removedOnCompletion = NO;
-    [self.layer addAnimation:anim forKey:@"KCBasicAnimation_Rotation"];
-}
-
-
-
 
 -(void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag{
     //开启事务
@@ -74,8 +62,6 @@
     [CATransaction setDisableActions:YES];
 //    将图层移动到终点
     self.layer.position = [[anim valueForKey:@"animationStop"] CGPointValue];
-    
-   
      //提交事务
     [CATransaction commit];
 }
